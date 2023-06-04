@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial';
+  height: 100vh;
+  background-color: springgreen;
+  color: white;
+}
+
+header {
+  height: 10rem;
+  background-color: black;
+  text-align: center;
+  font-size: 3rem;
+}
+
+h1 {
+  padding-top: 10px;
+  font-size: 5vw;
+}
+
+.container {
+  background-color: black;
+  width: 80%;
+  height: 700px;
+  margin: auto;
+}
+
+.flexed {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+}
+
+.result {
+  background-color: seagreen;
+  height: 70px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 70px;
+}
+
+button {
+  height: 15vw;
+  width: 15vw;
+  font-size: 3rem;
+  border-radius: 70px;
+  border: none;
+  background-color: blueviolet;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: rgb(60, 60, 60);
+  color: white;
+}
+
+footer {
+  height: 10%;
+  display: flex;
+}
+
+footer > div {
+  background-color: seagreen;
+  border: 2px solid white;
+  flex: 1;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+p {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  font-size: 40px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.last-screen {
+  position: absolute;
+  background-color: springgreen;
+  color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.again {
+  height: 100px;
+  width: 400px;
+  background-color: black;
+  color: white;
+  transition: .2s;
+}
+
+.again:hover {
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 200px;
+}
+
+.off {
+  display: none;
+}
